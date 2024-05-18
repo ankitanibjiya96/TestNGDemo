@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.firsttestngdemo.SeleniumToTestNG">
+        <methods>
+          <include name="HelpDesk"/>
+          <include name="SMS"/>
+          <include name="Menu"/>
+          <include name="Register"/>
+          <include name="prefix"/>
+          <include name="LogInPage"/>
+        </methods>
+      </class> <!-- com.firsttestngdemo.SeleniumToTestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
